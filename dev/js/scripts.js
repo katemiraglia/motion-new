@@ -1,21 +1,24 @@
-import { gsap } from "gsap";
-
-console.log("hello class");
-
-gsap.set(".aqua-box",{transformOrigin:"20% 10%"});
-
-let one = 0.25;
-let halfOfOne = 0.5;
-
-// access gsap | what do you want to animate?
-gsap.to(".aqua-box",{duration:one, rotation:360,backgroundColor:"#fff", scaleX:one, stagger:halfOfOne });
+import {
+    gsap
+} from "gsap";
 
 
 
-// let box = document.querySelector("#aqua-box");
+gsap.from("#first-line", {
+    duration: 1.5,
+    x: 200,
+    alpha: 0
 
-// box.addEventListener("click",function(){
-//     // gsap.to("#aqua-box",{duration:1,x: 100 });
-//     // gsap.to("#aqua-box",{duration:1,x: "+=100" });
-// })
+});
+gsap.from("#second-line", {
+    duration: 1.5,
+    x: 200,
+    alpha: 0
 
+});
+gsap.from("#view", {
+    duration: 1.5,
+    x: -200,
+    alpha: 0
+
+});

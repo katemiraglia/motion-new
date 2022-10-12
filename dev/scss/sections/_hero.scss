@@ -1,0 +1,26 @@
+#hero {
+  background-image: url("../img/carhero.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#text-hero {
+  color: white;
+  margin-right: 80px;
+  font-size: rem-calc(20);
+  height: 100%;
+}
+
+#view {
+  border: none;
+  background-color: var(--white);
+  color: var(--white);
+  padding: 20px 30px;
+  border-radius: 6px;
+  align-items: center;
+  margin-top: 24px;
+  font-size: rem-calc(15);
+  cursor: pointer;
+  color: black;
+}

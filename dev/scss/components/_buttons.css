@@ -1,0 +1,15 @@
+/* =============
+    Buttons
+============= */
+#view {
+  border: none;
+  background-color: var(--white);
+  color: var(--white);
+  padding: 20px 30px;
+  border-radius: 6px;
+  align-items: center;
+  margin-top: 24px;
+  font-size: rem-calc(15);
+  cursor: pointer;
+  color: black;
+}

@@ -1,6 +1,16 @@
 /* =============
     Typography
 ============= */
-body{
-    font-family: 'Nunito', sans-serif;
+#text-hero {
+
+    color: var(--white);
+    font-size: rem-calc(20);
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: left;
+    font-family: 'Sora', sans-serif;
+    margin-left: 100px;
+
 }
