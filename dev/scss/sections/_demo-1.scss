@@ -1,0 +1,33 @@
+#demo-1{
+    display: grid;
+    grid-template-columns: auto 60vw auto;
+    grid-template-areas: ". demo-1 .";
+
+    section{
+        grid-area: demo-1;
+        background-color: var(--charcoal);
+        height: 50vh;
+        // overflow: hidden;
+
+        h1{
+            color: var(--white);
+            position: relative;
+            z-index: 10;
+        }
+
+        .aqua-box{
+            height: 100px;
+            width: 200px;
+            background-color: var(--aqua);
+            // transform-origin: right bottom;
+
+            #black-dot{
+                background-color: var(--black);
+                height: 10px;
+                width: 10px;
+                border-radius: 100%;
+            }
+        }
+        
+    }
+}
