@@ -3,6 +3,7 @@
 ============= */
 #view {
     border: none;
+    display: block;
     background-color: var(--white);
     color: var(--white);
     padding: 20px 30px;
@@ -12,4 +13,9 @@
     font-size: rem-calc(15);
     cursor: pointer;
     color: black;
+}
+
+#view:hover {
+
+    background-color: #bd0909;
 }

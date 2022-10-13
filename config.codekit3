@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
+    "\/.gitattributes" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitattributes",
+      "oF" : 0
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -387,7 +395,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 669227926.75338697,
-    "displayValue" : "Miraglia_MG",
+    "displayValue" : "motion-new",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-ucla",
     "iconImageWasSetByUser" : 0

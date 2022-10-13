@@ -3,13 +3,21 @@
   height: 80vh;
   background-size: cover;
   background-position: center bottom;
+
 }
 
 #text-hero {
   color: white;
   margin-right: 80px;
-  font-size: rem-calc(20);
+  font-size: rem-calc(18);
   height: 100%;
+
+  @include sm {
+    font-size: rem-calc(10);
+  }
+
+
+
 }
 
 #view {

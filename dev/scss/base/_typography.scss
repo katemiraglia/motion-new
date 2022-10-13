@@ -4,7 +4,7 @@
 #text-hero {
 
     color: var(--white);
-    font-size: rem-calc(20);
+    font-size: rem-calc(18);
     height: 100%;
     display: flex;
     justify-content: right;
@@ -12,5 +12,9 @@
     text-align: left;
     font-family: 'Sora', sans-serif;
     margin-left: 100px;
+
+    @include sm {
+        font-size: rem-calc(5);
+    }
 
 }
