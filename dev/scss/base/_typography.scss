@@ -18,3 +18,9 @@
     }
 
 }
+
+h1 {
+    @include sm {
+        font-size: rem-calc(10);
+    }
+}

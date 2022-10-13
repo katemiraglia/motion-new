@@ -12,12 +12,15 @@
   font-size: rem-calc(18);
   height: 100%;
 
+
+
+
+}
+
+h1 {
   @include sm {
     font-size: rem-calc(10);
   }
-
-
-
 }
 
 #view {
