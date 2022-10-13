@@ -17,6 +17,45 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/assets\/daniel-leone-g30P1zcOzXo-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 833978,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/daniel-leone-g30P1zcOzXo-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/david-marcu-78A265wPiO4-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 883296,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/david-marcu-78A265wPiO4-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/guillaume-briard-lSXpV8bDeMA-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 3209498,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/guillaume-briard-lSXpV8bDeMA-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/css\/styles.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -28,6 +67,45 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/heroes\/hero-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 363485,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/hero-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/heroes\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 129853,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/heroes\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hiking\/hiking.jpg" : {
+      "ft" : 16384,
+      "iS" : 656755,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hiking\/hiking.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/index.html" : {
       "cB" : 0,
@@ -48,12 +126,36 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/demo-1.kit" : {
+    "\/dev\/content\/demo.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/demo-1.html",
+      "oAP" : "\/dev\/content\/demo.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero-2.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/hiking.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/hiking.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -257,7 +359,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/sections\/_demo-1.scss" : {
+    "\/dev\/scss\/sections\/_demo.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -266,7 +368,52 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/_demo-1.css",
+      "oAP" : "\/dev\/scss\/sections\/_demo.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero-2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero-2.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_hiking.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_hiking.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
