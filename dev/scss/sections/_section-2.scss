@@ -1,0 +1,45 @@
+#section2 {
+    background-color: #EFECE2;
+    font-size: rem-calc(40);
+    font-family: 'Gotu', sans-serif;
+}
+
+#unique {
+    margin-left: 58px;
+    margin-top: 62px;
+}
+
+/* .rectangle {
+    height: 416px;
+    width: 529px;
+    background-color: #66BCEC;
+    position: absolute;
+    z-index: 2;
+    top: 1300px;
+    left: 522px;
+} */
+.dress2 {
+    padding: 26px 53px 26px 53px;
+    position: absolute;
+    z-index: 1;
+    top: 1230px;
+    left: 522px;
+    height: 416px;
+    width: 529px;
+    background-color: #66BCEC;
+    scale: 70%;
+    position: absolute;
+    z-index: 2;
+
+
+}
+
+.dressimage {
+    padding: 24px 70px 24px 70px;
+    background-color: #E468C2;
+    position: absolute;
+    z-index: 1;
+    top: 1340px;
+    left: 928px;
+
+}

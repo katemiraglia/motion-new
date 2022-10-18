@@ -29,6 +29,93 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/67659730_006_b.webp" : {
+      "ft" : 8388608,
+      "iS" : 74416,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/67659730_006_b.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/79265633_010_f.webp" : {
+      "ft" : 8388608,
+      "iS" : 41128,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/79265633_010_f.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
+    },
+    "\/deploy\/img\/dress.jpg" : {
+      "ft" : 16384,
+      "iS" : 486425,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/dress.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/dress1.jpg" : {
+      "ft" : 16384,
+      "iS" : 73882,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/dress1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/dress2.jpg" : {
+      "ft" : 16384,
+      "iS" : 77090,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/dress2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/dresssmall.jpg" : {
+      "ft" : 16384,
+      "iS" : 77090,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/dresssmall.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/greenbackground.jpg" : {
+      "ft" : 16384,
+      "iS" : 186129,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/greenbackground.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -48,20 +135,20 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/demo-1.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/demo-1.html",
-      "oF" : 0
-    },
     "\/dev\/content\/hero-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero-1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/section-2.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/section-2.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -290,6 +377,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero-1.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_section-2.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_section-2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

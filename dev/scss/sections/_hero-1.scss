@@ -1,4 +1,24 @@
 #section1 {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    font-size: rem-calc(60);
+    margin-left: 40px;
+}
+
+#links {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 900;
+    font-size: rem-calc(30);
+    align-self: right;
+    margin-top: 27px;
+    text-align: right;
+    margin-right: 40px;
     color: black;
+
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
 }

@@ -25,8 +25,10 @@ html {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
 }
 
 /* Sections
@@ -61,9 +63,12 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
-  overflow: visible; /* 2 */
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
 }
 
 /**
@@ -71,8 +76,10 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /* Text-level semantics
@@ -89,9 +96,12 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
-  text-decoration: underline dotted; /* 2 */
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
 }
 
 /**
@@ -109,8 +119,10 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace; /* 1 */
-  font-size: 1em; /* 2 */
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
 }
 
 /**
@@ -160,10 +172,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit; /* 1 */
-  font-size: 100%; /* 1 */
-  line-height: 1.15; /* 1 */
-  margin: 0; /* 2 */
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
 }
 
 /**
@@ -171,7 +187,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input { /* 1 */
+input {
+  /* 1 */
   overflow: visible;
 }
 
@@ -180,7 +197,8 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select { /* 1 */
+select {
+  /* 1 */
   text-transform: none;
 }
 
@@ -229,12 +247,18 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box; /* 1 */
-  color: inherit; /* 2 */
-  display: table; /* 1 */
-  max-width: 100%; /* 1 */
-  padding: 0; /* 3 */
-  white-space: normal; /* 1 */
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
 }
 
 /**
@@ -257,8 +281,10 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
 }
 
 /**
@@ -274,8 +300,10 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield; /* 1 */
-  outline-offset: -2px; /* 2 */
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
 }
 
 /**
@@ -290,8 +318,10 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button; /* 1 */
-  font: inherit; /* 2 */
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
 }
 
 /* Interactive
@@ -333,7 +363,19 @@ template {
     Typography
 ============= */
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 900;
+  font-size: 0.9375rem;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 900;
+  font-size: 0.9375rem;
+}
+
+#section2 {
+  font-family: "Gotu", sans-serif;
 }
 
 /* =============
@@ -391,4 +433,71 @@ textarea {
   height: 10px;
   width: 10px;
   border-radius: 100%;
+}
+
+#section1 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 900;
+  font-size: 3.75rem;
+  margin-left: 40px;
+}
+
+#links {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 900;
+  font-size: 1.875rem;
+  align-self: right;
+  margin-top: 27px;
+  text-align: right;
+  margin-right: 40px;
+  color: black;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#section2 {
+  background-color: #EFECE2;
+  font-size: 2.5rem;
+  font-family: "Gotu", sans-serif;
+}
+
+#unique {
+  margin-left: 58px;
+  margin-top: 62px;
+}
+
+/* .rectangle {
+    height: 416px;
+    width: 529px;
+    background-color: #66BCEC;
+    position: absolute;
+    z-index: 2;
+    top: 1300px;
+    left: 522px;
+} */
+.dress2 {
+  padding: 26px 53px 26px 53px;
+  position: absolute;
+  z-index: 1;
+  top: 1230px;
+  left: 522px;
+  height: 416px;
+  width: 529px;
+  background-color: #66BCEC;
+  scale: 70%;
+  position: absolute;
+  z-index: 2;
+}
+
+.dressimage {
+  padding: 24px 70px 24px 70px;
+  background-color: #E468C2;
+  position: absolute;
+  z-index: 1;
+  top: 1340px;
+  left: 928px;
 }
