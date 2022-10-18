@@ -5,6 +5,15 @@ import {
     ScrollTrigger
 } from "gsap/ScrollTrigger";
 
+
+
+/* import {
+    gsap
+} from "gsap";
+import {
+    ScrollTrigger
+} from "gsap/ScrollTrigger";
+
 /* gsap.to("greenbackground", {
     x: 100,
     duration: 3
@@ -13,16 +22,17 @@ import {
  */
 
 
-
+/* 
 gsap.registerPlugin(ScrollTrigger);
+
 
 function scrollAnimation() {
     var tl = gsap.timeline();
-    tl.to(".greenbackground", {
+    tl.to("#greenbackground", {
         duration: 1,
-        x: 400,
+        x: -400,
         scrollTrigger: {
-            trigger: ".greenbackground",
+            trigger: "#greenbackground",
             // toggleActions: "restart pause reverse pause",
             markers: true,
             start: "0px 50%",
@@ -35,9 +45,9 @@ function scrollAnimation() {
 }
 
 
-var mainTL = gsap.timeline();
-mainTL.add(scrollAnimation());
-
+tl.add(scrollAnimation());
+/* var mainTL = gsap.timeline();
+mainTL.add(scrollAnimation()); */
 
 
 
