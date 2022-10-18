@@ -12,9 +12,10 @@ html {
 ============= */
 :root {
   --white: #fff;
+  --whiteO: 255,255,255;
   --black: #000;
-  --charcoal: #383838;
-  --aqua: #2ee6ef;
+  --charcoal: #333333;
+  --red: #e23636;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -333,7 +334,15 @@ template {
     Typography
 ============= */
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 /* =============
@@ -366,29 +375,168 @@ textarea {
 /* =============
     Footer
 ============= */
-#demo-1 {
-  display: grid;
-  grid-template-columns: auto 60vw auto;
-  grid-template-areas: ". demo-1 .";
+#hero {
+  background-image: url("../img/heroes/hero.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 90vh;
 }
-#demo-1 section {
-  grid-area: demo-1;
-  background-color: var(--charcoal);
-  height: 50vh;
+@media (min-width: 768px) {
+  #hero {
+    height: 80vh;
+  }
 }
-#demo-1 section h1 {
+@media (min-width: 1024px) {
+  #hero {
+    height: 90vh;
+  }
+}
+#hero #bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#hero #bg h1 {
+  font-family: "Righteous", cursive;
   color: var(--white);
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin: 0;
+}
+@media (min-width: 768px) {
+  #hero #bg h1 {
+    font-size: 3.75rem;
+  }
+}
+#hero #bg h1 span {
+  color: var(--white);
+}
+#hero #bg button {
+  border: none;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 20px 30px;
+  border-radius: 8px;
+  font-size: 1.25rem;
+  margin-top: 24px;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  #hero #bg button {
+    font-size: 1.5625rem;
+  }
+}
+#hero #bg button i {
+  margin-left: 12px;
+}
+
+#hiking {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". hiking .";
+  margin: 24px 0;
+}
+@media (min-width: 768px) {
+  #hiking {
+    grid-template-columns: auto 90vw auto;
+    margin: 48px 0;
+  }
+}
+@media (min-width: 1024px) {
+  #hiking {
+    grid-template-columns: auto 80vw auto;
+    margin: 64px 0;
+  }
+}
+@media (min-width: 1440px) {
+  #hiking {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#hiking > div {
+  grid-area: hiking;
+}
+@media (min-width: 768px) {
+  #hiking > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#hiking > div section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+#hiking > div section h1 {
+  font-weight: 300;
+  font-size: 3.125rem;
+}
+#hiking > div aside {
+  height: 100vh;
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  #hiking > div aside {
+    height: 70vh;
+  }
+}
+#hiking > div aside div {
+  background-image: url("../img/hiking/hiking.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+#hero-2 {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  z-index: 10;
 }
-#demo-1 section .aqua-box {
-  height: 100px;
-  width: 200px;
-  background-color: var(--aqua);
+@media (min-width: 768px) {
+  #hero-2 {
+    height: 80vh;
+  }
 }
-#demo-1 section .aqua-box #black-dot {
+@media (min-width: 1024px) {
+  #hero-2 {
+    height: 70vh;
+  }
+}
+#hero-2 > div {
+  text-align: center;
+  color: var(--white);
+}
+#hero-2 > div h1 {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 5rem;
+}
+#hero-2 #bg-img {
+  background-image: url("../img/heroes/hero-2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+#demo {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--black);
-  height: 10px;
-  width: 10px;
-  border-radius: 100%;
+  border: 1px solid greenyellow;
+}
+#demo #box {
+  height: 100px;
+  width: 100px;
+  background-color: var(--red);
 }
