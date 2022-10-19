@@ -3,6 +3,7 @@
     font-weight: 900;
     font-size: rem-calc(40);
     margin-left: 40px;
+
 }
 
 #links {
@@ -19,6 +20,12 @@
 
 a:link {
     color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E468C2;
     background-color: transparent;
     text-decoration: none;
 }

@@ -459,10 +459,17 @@ a:link {
   text-decoration: none;
 }
 
+a:hover {
+  color: #E468C2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 #section2 {
   background-color: #EFECE2;
-  font-size: 2.5rem;
+  font-size: 1.875rem;
   font-family: "Gotu", sans-serif;
+  max-height: 1000px;
 }
 
 #unique {
@@ -470,34 +477,51 @@ a:link {
   margin-top: 62px;
 }
 
-/* .rectangle {
-    height: 416px;
-    width: 529px;
-    background-color: #66BCEC;
-    position: absolute;
-    z-index: 2;
-    top: 1300px;
-    left: 522px;
-} */
-.dress2 {
-  padding: 26px 53px 26px 53px;
-  position: absolute;
-  z-index: 1;
-  top: 1230px;
-  left: 522px;
-  height: 416px;
-  width: 529px;
-  background-color: #66BCEC;
-  scale: 70%;
-  position: absolute;
-  z-index: 2;
+.whobody {
+  font-size: 1.25rem;
+  grid-column: 1/span 3;
+  text-align: justify;
+  margin-right: 78px;
 }
 
-.dressimage {
+#dress2 {
+  padding: 26px 53px 26px 53px;
+  z-index: 1;
+  /* height: 416px;
+  width: 529px; */
+  background-color: #66BCEC;
+  scale: 85%;
+  z-index: 2;
+  display: grid;
+}
+
+#dressimage {
   padding: 24px 70px 24px 70px;
   background-color: #E468C2;
-  position: absolute;
   z-index: 1;
-  top: 1340px;
-  left: 928px;
+  display: grid;
+}
+
+.overlapcontainer {
+  width: 100%;
+}
+
+.extracontainer {
+  display: grid;
+  grid-template-columns: repeat(8, [col-start] 1fr);
+  grid-template-rows: repeat(12, [row-start] 1fr);
+}
+
+.overlap:first-of-type {
+  grid-column: 6/span 2;
+  grid-row: 1/span 1;
+}
+
+.overlap:last-of-type {
+  grid-column: 4/span 2;
+  grid-row: 1/span 1;
+}
+
+#pinksectionn {
+  background-color: #EFECE2;
 }

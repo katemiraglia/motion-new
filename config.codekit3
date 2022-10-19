@@ -29,19 +29,6 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/_MG_0136.jpg" : {
-      "ft" : 16384,
-      "iS" : 6239886,
-      "jF" : 0,
-      "oA" : 1,
-      "oAP" : "\/deploy\/img\/_MG_0136.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/67659730_006_b.webp" : {
       "ft" : 8388608,
       "iS" : 74416,
@@ -131,7 +118,7 @@
     },
     "\/deploy\/img\/pinkbackground.jpg" : {
       "ft" : 16384,
-      "iS" : 239095,
+      "iS" : 55556,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/pinkbackground.jpg",
@@ -167,6 +154,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/hero-1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/pinksectionn.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/pinksectionn.html",
       "oF" : 0
     },
     "\/dev\/content\/section-2.kit" : {
@@ -403,6 +398,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero-1.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_pinksectionn.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_pinksectionn.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
