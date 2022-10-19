@@ -526,14 +526,16 @@ a:hover {
   background-color: #EFECE2;
   grid-template-columns: repeat(8, [col-start] 1fr);
   display: grid;
+  font-family: "Gotu", sans-serif;
+  font-size: 1.25rem;
 }
 
 #pinkbackground {
   margin-right: 50px;
 }
 
-#why {
-  grid-column: span 3;
+#whytext {
   font-family: "Gotu", sans-serif;
   font-size: 1.875rem;
+  width: 400px;
 }
