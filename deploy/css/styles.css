@@ -524,4 +524,9 @@ a:hover {
 
 #pinksectionn {
   background-color: #EFECE2;
+  grid-template-columns: repeat(8, [col-start] 1fr);
+}
+
+#pinkbackground {
+  grid-column: 6/span 2;
 }
