@@ -12,10 +12,13 @@
 
 }
 
-#whytext {
+.whytext {
     font-family: 'Gotu', sans-serif;
-    font-size: rem-calc(30);
-    width: 400px;
+    font-size: rem-calc(20);
+    grid-column: 3 / span 4;
+    text-align: justify;
+
+
 
 
 }

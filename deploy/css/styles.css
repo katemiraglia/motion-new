@@ -534,8 +534,9 @@ a:hover {
   margin-right: 50px;
 }
 
-#whytext {
+.whytext {
   font-family: "Gotu", sans-serif;
-  font-size: 1.875rem;
-  width: 400px;
+  font-size: 1.25rem;
+  grid-column: 3/span 4;
+  text-align: justify;
 }
