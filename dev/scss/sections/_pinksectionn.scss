@@ -1,8 +1,16 @@
 #pinksectionn {
     background-color: #EFECE2;
     grid-template-columns: repeat(8, [col-start] 1fr);
+    display: grid;
 }
 
 #pinkbackground {
-    grid-column: 6 / span 2;
+    margin-right: 50px;
+}
+
+#why {
+    grid-column: span 3;
+    font-family: 'Gotu', sans-serif;
+    font-size: rem-calc(30);
+
 }
