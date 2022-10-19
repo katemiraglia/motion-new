@@ -15,6 +15,6 @@ gsap.to("#dressimage", {
         trigger: "#pinkbackground",
         toggleActions: "restart pause reverse pause",
         markers: true,
-        start:
+
     }
 });
