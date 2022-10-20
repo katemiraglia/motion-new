@@ -468,7 +468,7 @@ a:hover {
 
 #section2 {
   background-color: #EFECE2;
-  font-size: 1.875rem;
+  font-size: 3vh;
   font-family: "Gotu", sans-serif;
   max-height: 920px;
 }
@@ -479,7 +479,7 @@ a:hover {
 }
 
 .whobody {
-  font-size: 1.25rem;
+  font-size: 3vh;
   grid-column: 1/span 3;
   text-align: justify;
   margin-right: 78px;
@@ -580,13 +580,18 @@ a:hover {
 .gallery {
   columns: 3;
   gap: 20px;
+  overflow: auto;
+  background-color: #ffffff;
 }
 
 .clickable {
   width: 100%;
-  border-radius: 20px;
+  max-width: 100%;
+  overflow: auto;
 }
 
-#linkimages {
-  background-color: #EFECE2;
+.centered {
+  text-align: center;
+  font-size: 1.875rem;
+  overflow: auto;
 }

@@ -1,16 +1,18 @@
 .gallery {
     columns: 3;
     gap: 20px;
+    overflow: auto;
+    background-color: #ffffff;
 }
 
 .clickable {
     width: 100%;
-    border-radius: 20px;
-
-
+    max-width: 100%;
+    overflow: auto;
 }
 
-#linkimages {
-    background-color: #EFECE2;
-
+.centered {
+    text-align: center;
+    font-size: rem-calc(30);
+    overflow: auto;
 }
