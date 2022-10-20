@@ -18,3 +18,15 @@ gsap.to("#dressimage", {
 
     }
 });
+
+gsap.to("#pinkbackground", {
+    duration: 1,
+    x: 5,
+    rotation: 360,
+    scrollTrigger: {
+        trigger: "#whytext",
+        toggleActions: "restart pause reverse pause",
+        markers: true,
+
+    }
+});

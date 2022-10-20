@@ -7,18 +7,52 @@
 }
 
 #pinkbackground {
-    margin-right: 50px;
+
+    margin-right: 58px;
+    max-width: 801px;
+    margin-top: 25px;
 
 
 }
 
-.whytext {
+.whywedoit {
     font-family: 'Gotu', sans-serif;
     font-size: rem-calc(20);
-    grid-column: 3 / span 4;
-    text-align: justify;
-
-
-
+    grid-column: 2 / span 5;
+    grid-row: 1/ span 1;
+    text-align: left;
 
 }
+
+#trash {
+    align-self: left;
+    position: absolute;
+    left: 0px;
+
+}
+
+/* .imagecontainer {
+    width: 100%;
+
+}
+
+.extraimagecontainer {
+    display: grid;
+    grid-template-columns: repeat(8, [col-start] 1fr);
+    grid-template-rows: repeat(12, [row-start] 1fr);
+}
+
+.individualimages:first-of-type {
+    grid-column: 1 / span 5;
+    grid-row: 1/span 1;
+}
+
+.individualimages:last-of-type {
+    grid-column: 1 / span 5;
+    grid-row: 1/span 1;
+}
+
+#effects {
+    margin-top: 25px;
+    margin-left: 58px;
+} */
