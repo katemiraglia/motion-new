@@ -15,6 +15,7 @@ html {
   --black: #000;
   --charcoal: #383838;
   --aqua: #2ee6ef;
+  --pink: #E468C2;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -469,7 +470,7 @@ a:hover {
   background-color: #EFECE2;
   font-size: 1.875rem;
   font-family: "Gotu", sans-serif;
-  max-height: 1000px;
+  max-height: 920px;
 }
 
 #unique {
@@ -533,7 +534,7 @@ a:hover {
 #pinkbackground {
   margin-right: 58px;
   max-width: 801px;
-  margin-top: 25px;
+  margin-top: 40px;
 }
 
 .whywedoit {
@@ -542,6 +543,7 @@ a:hover {
   grid-column: 2/span 5;
   grid-row: 1/span 1;
   text-align: left;
+  margin-top: 110px;
 }
 
 #trash {
@@ -575,3 +577,16 @@ a:hover {
     margin-top: 25px;
     margin-left: 58px;
 } */
+.gallery {
+  columns: 3;
+  gap: 20px;
+}
+
+.clickable {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#linkimages {
+  background-color: #EFECE2;
+}
