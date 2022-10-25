@@ -1,6 +1,6 @@
 .gallery {
     columns: 3;
-    gap: 20px;
+    gap: 30px;
     overflow: auto;
     background-color: #ffffff;
 }
@@ -13,6 +13,7 @@
 
 .centered {
     text-align: center;
-    font-size: rem-calc(30);
+    font-size: rem-calc(40);
     overflow: auto;
+    
 }

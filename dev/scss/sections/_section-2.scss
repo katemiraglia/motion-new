@@ -46,7 +46,7 @@
 .extracontainer {
     display: grid;
     grid-template-columns: repeat(8, [col-start] 1fr);
-    grid-template-rows: repeat(12, [row-start] 1fr);
+    grid-template-rows: repeat(1, [row-start] 1fr);
 }
 
 .overlap:first-of-type {
