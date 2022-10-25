@@ -481,7 +481,7 @@ a:hover {
 .whobody {
   font-size: 3vh;
   grid-column: 1/span 3;
-  text-align: justify;
+  text-align: left;
   margin-right: 78px;
 }
 
