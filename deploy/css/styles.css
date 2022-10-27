@@ -13,8 +13,6 @@ html {
 :root {
   --white: #fff;
   --black: #000;
-  --charcoal: #383838;
-  --aqua: #2ee6ef;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -329,11 +327,15 @@ template {
 /* =============
     Base
 ============= */
+.hide {
+  display: none;
+}
+
 /* =============
     Typography
 ============= */
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* =============
@@ -366,29 +368,27 @@ textarea {
 /* =============
     Footer
 ============= */
-#demo-1 {
+#drawSVG-container {
+  min-height: 100vh;
   display: grid;
-  grid-template-columns: auto 60vw auto;
-  grid-template-areas: ". demo-1 .";
+  grid-template-rows: repeat(3, 1fr);
 }
-#demo-1 section {
-  grid-area: demo-1;
-  background-color: var(--charcoal);
-  height: 50vh;
+#drawSVG-container .drawSVG {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-#demo-1 section h1 {
-  color: var(--white);
-  position: relative;
-  z-index: 10;
+#drawSVG-container .drawSVG .title {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#demo-1 section .aqua-box {
-  height: 100px;
-  width: 200px;
-  background-color: var(--aqua);
+#drawSVG-container .drawSVG .svg {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-#demo-1 section .aqua-box #black-dot {
-  background-color: var(--black);
-  height: 10px;
-  width: 10px;
-  border-radius: 100%;
+#drawSVG-container .drawSVG .svg svg {
+  width: 100%;
 }
