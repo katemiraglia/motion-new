@@ -2,6 +2,7 @@ import { gsap } from "gsap";
 import { DrawSVGPlugin } from "gsap/DrawSVGPlugin";
 import { GSDevTools } from "gsap/GSDevTools";
 
+
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
 function simpleMotion(){
@@ -23,3 +24,6 @@ var mainTL = gsap.timeline();
 mainTL.add(simpleMotion())
 .add(patternMotion())
 .add(UIMotion());
+
+
+GSDevTools.create();
