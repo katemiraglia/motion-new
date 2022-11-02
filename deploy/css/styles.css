@@ -13,8 +13,6 @@ html {
 :root {
   --white: #fff;
   --black: #000;
-  --charcoal: #383838;
-  --aqua: #2ee6ef;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -329,13 +327,13 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: black;
+}
+
 /* =============
     Typography
 ============= */
-body {
-  font-family: "Nunito", sans-serif;
-}
-
 /* =============
     Buttons
 ============= */
@@ -366,29 +364,24 @@ textarea {
 /* =============
     Footer
 ============= */
-#demo-1 {
+#svg {
   display: grid;
-  grid-template-columns: auto 60vw auto;
-  grid-template-areas: ". demo-1 .";
+  grid-template-columns: auto 600px auto;
+  grid-template-areas: ". svg .";
 }
-#demo-1 section {
-  grid-area: demo-1;
-  background-color: var(--charcoal);
-  height: 50vh;
+#svg div {
+  grid-area: svg;
 }
-#demo-1 section h1 {
-  color: var(--white);
-  position: relative;
-  z-index: 10;
+
+#svg2 {
+  display: grid;
+  grid-template-columns: auto 1200px auto;
+  grid-template-areas: ". svg2 .";
 }
-#demo-1 section .aqua-box {
-  height: 100px;
-  width: 200px;
-  background-color: var(--aqua);
+#svg2 div {
+  grid-area: svg2;
 }
-#demo-1 section .aqua-box #black-dot {
-  background-color: var(--black);
-  height: 10px;
-  width: 10px;
-  border-radius: 100%;
+
+svg {
+  width: 100%;
 }
