@@ -5,6 +5,20 @@ import { GSDevTools } from "gsap/GSDevTools";
 
 gsap.registerPlugin(DrawSVGPlugin, GSDevTools);
 
+
+// function simpleMotion2() {
+//     var tl = gsap.timeline();
+//     tl.from("#Unionright", { duration: 2, drawSVG: "0%" })
+//         .from("#leftheart1", { duration: 2, drawSVG: "0%", delay: -2 })
+//         .from("#break", { duration: 2, drawSVG: "0%", stroke: "#E41F1F" })
+//         .to("#Unionright", { duration: 1, rotate: -45, transformOrigin: "bottom right" })
+//         .to("#rightheart1", { duration: 1, rotate: 45, transformOrigin: "bottom left", fill: "#D01010" })
+//         .to("#line", { duration: .5, drawSVG: "0%", stroke: "#E41F1F", delay: -1 })
+//         .to("#leftheart", { duration: .5, drawSVG: "0%", stroke: "#E41F1F" })
+//         .to("#rightheart", { duration: .5, drawSVG: "0%", stroke: "#E41F1F" });
+
+//     return tl;
+// }
 function simpleMotion() {
     var tl = gsap.timeline();
     tl.from("#rightheart", { duration: 2, drawSVG: "0%" })
@@ -26,7 +40,7 @@ function patternMotion() {
         .from(".d", { duration: .5, drawSVG: "0%" })
         .from(".e", { duration: .5, drawSVG: "0%" })
         .from("#circle", { duration: 2, drawSVG: "0%" })
-        .from("#frame9", { duration: 2, rotate: 360, transformOrigin: "center" });
+        .from("#frame9", { duration: 4.5, rotate: 360, transformOrigin: "center", delay: -4.5 });
     return tl;
 }
 function UIMotion() {
@@ -46,9 +60,10 @@ function UISecond() {
 
 var mainTL = gsap.timeline();
 mainTL.add(simpleMotion())
+    // .add(simpleMotion2())
     .add(patternMotion())
-    .add(UIMotion())
-    .add(UISecond());
+    .add(UISecond())
+    .add(UIMotion());
 
 
 GSDevTools.create();
