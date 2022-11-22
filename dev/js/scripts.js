@@ -6,13 +6,12 @@ import { MotionPathHelper } from "gsap/MotionPathHelper";
 
 gsap.registerPlugin(MorphSVGPlugin, DrawSVGPlugin, GSDevTools, MotionPathHelper);
 
-MorphSVGPlugin.convertToPath("circle, rect, ellipse, line, polygon, polyline");
 
 
 
 function bluepath2() {
     var tl = gsap.timeline();
-    tl.from("#smallbluecircle", { duration: 6, motionPath: { path: "#bluepath", align: "#bluepath" } });
+    tl.from("#smallbluecircle", { duration: 6, motionPath: { path: "#bluepath", align: self } });
 
 
     return tl;
