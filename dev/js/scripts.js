@@ -50,7 +50,45 @@ function shadow() {
 function pathbounce() {
     var tl = gsap.timeline();
     tl.from("#docS", { opacity: 0, duration: .3 })
-        .from("#docS", { duration: 4, transformOrigin: "center", motionPath: { path: "#bouncepath1", align: "#bouncepath1" } });
+        .to("#docS", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath1", align: "#bouncepath1" } })
+        .from("#docN", { opacity: 0, duration: .3, delay: -1 })
+        .to("#docN", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath2", align: "#bouncepath2" } })
+        .from("#docE", { opacity: 0, duration: .3, delay: -1 })
+        .to("#docE", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath3", align: "#bouncepath3" } })
+        .from("#docT", { opacity: 0, duration: .3, delay: -1 })
+        .from("#docT", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath4", align: "#bouncepath4" } })
+        .from("#docR", { opacity: 0, duration: .3, delay: -1 })
+        .from("#docR", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath5", align: "#bouncepath5" } })
+        .from("#docA", { opacity: 0, duration: .3, delay: -1 })
+        .from("#docA", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath6", align: "#bouncepath6" } })
+        .from("#docM", { opacity: 0, duration: .3, delay: -1 })
+        .from("#docM", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath7", align: "#bouncepath7" } })
+        .from(".doctor", { opacity: 0, duration: .3, delay: -1 })
+        .from(".doctor", { y: -500, duration: 1, delay: -.3, delay: -1 });
+
+    return tl;
+}
+
+// function drdrop() {
+//     var tl = gsap.timeline();
+//     tl.to(".doctor", { opacity: 0, duration: .3 })
+//         .from(".doctor", { y: -500, duration: 2, delay: -.3 });
+
+
+
+//     return tl;
+// }
+function airwalk() {
+    var tl = gsap.timeline();
+    tl.from("#yellowwithshapee", { opacity: 0, duration: .3 })
+        .from("#yellowwithshapee", { y: 50, duration: .3 })
+        .from("#withsoles", { opacity: 0, duration: .3 })
+        .from("#bouncing", { opacity: 0, duration: .3 })
+        .to("#bouncing", { scale: 1.2, duration: 2 })
+        .to("#bouncing", { scale: 1, duration: 2 })
+        .from(".airwalk", { opacity: 0, duration: .3 })
+        .from("#yellowlines", { x: 600 });
+
 
     return tl;
 }
@@ -61,8 +99,10 @@ var mainTL = gsap.timeline();
 mainTL.add(bluepath2())
     // .add(backup())
     .add(shadow())
-    .add(pathbounce());
+    .add(pathbounce())
+    .add(airwalk());
+// .add(drdrop);
 
 
-
+// MotionPathHelper.create(bouncepath1)
 GSDevTools.create();
