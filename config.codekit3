@@ -57,6 +57,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/assets\/newest one.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/assets\/newest one.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/assets\/pattern-animation.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -361,6 +371,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/trash.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/trash.html",
+      "oF" : 0
     },
     "\/dev\/trash.kit" : {
       "cB" : 0,

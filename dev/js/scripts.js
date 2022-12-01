@@ -13,10 +13,10 @@ gsap.registerPlugin(MorphSVGPlugin, DrawSVGPlugin, GSDevTools, MotionPathHelper,
 
 function bluepath2() {
     var tl = gsap.timeline();
-    tl.to("#evensmallerblue", { scale: 48, duration: 1, transformOrigin: "center", motionPath: { path: "#bluepath", align: "#bluepath" } })
-        .to("#yellowsmallsquare", { scale: 6, duration: 1, transformOrigin: "center", motionPath: { path: "#yellowpath", align: "#yellowpath" } })
-        .to("#smallgreencircle", { scale: 6, duration: 1, transformOrigin: "center", motionPath: { path: "#greenpath", align: "#greenpath" } })
-        .to("#smallred", { scale: 6, duration: 1, transformOrigin: "center", motionPath: { path: "#redpath", align: "#redpath" } })
+    tl.to("#evensmallerblue", { scale: 64, duration: 1, transformOrigin: "center", motionPath: { path: "#bluepath", align: "#bluepath" } })
+        .to("#smallestYellow", { scale: 8.5, duration: 1, transformOrigin: "center", motionPath: { path: "#yellowpath", align: "#yellowpath" } })
+        .to("#smallestGreen", { scale: 43, duration: 1, transformOrigin: "center", motionPath: { path: "#greenpath", align: "#greenpath" } })
+        .to("#smallestreds", { scale: 35, duration: 1, transformOrigin: "center", motionPath: { path: "#redpath", align: "#redpath" } })
 
     // .to("#smallred", { scale: 6, duration: 6, motionPath: { path: "#redpath", align: "#redpath" } })
     // .to("#yellowsmallsquare", { scale: 6, duration: 6, motionPath: { path: "#yellowpath", align: "#yellowpath" } })
