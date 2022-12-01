@@ -25,9 +25,16 @@ function bluepath2() {
     return tl;
 }
 
+function changingshape() {
+    var tl = gsap.timeline();
+    tl.to("#smallestGreen", { duration: 3, morphSVG: "#Vector" });
+    return tl;
+}
+
 
 var mainTL = gsap.timeline();
-mainTL.add(bluepath2());
+mainTL.add(bluepath2())
+    .add(changingshape());
 
 
 GSDevTools.create();
