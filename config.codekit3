@@ -17,41 +17,11 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
-    "\/assets\/blue-path.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/blue-path.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/assets\/line-animation.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/assets\/line-animation.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/logo-container.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/logo-container.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/logo-containersmallerblue.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/logo-containersmallerblue.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -108,13 +78,21 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/drawSVG.kit" : {
+    "\/dev\/content\/demo-1.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 3
+      "oAP" : "\/dev\/content\/demo-1.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/drawSVG.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/drawSVG.html",
+      "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,
@@ -361,14 +339,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/trash.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/trash.html",
-      "oF" : 0
     },
     "\/gsap-bonus.tgz" : {
       "cB" : 0,
