@@ -39,9 +39,9 @@ function shadow() {
 }
 function pathbounce() {
     var tl = gsap.timeline();
-    tl.from("#martengroup", { opacity: 0, duration: .3, delay: -1 })
-        .from("#martengroup", { y: -500, duration: 1, delay: -.3, delay: -1 })
-        .from(".doctor", { opacity: 0, duration: .3 })
+    tl.from
+
+        .from(".doctor", { opacity: 0, duration: .3, delay: -1 })
         .from(".doctor", { y: -500, duration: 1, delay: -.3, delay: -1 });
 
     return tl;
