@@ -48,11 +48,21 @@ function greenpath() {
         .to("#clipgreen", { duration: 2, scale: 4, transformOrigin: "center", delay: -1.5 });
     return tl;
 }
+function bluepath() {
+    var tl = gsap.timeline();
+    tl.set("#allbluetogether", { xPercent: -50, yPercent: -50 })
+        .from("#allbluetogether", { duration: 4, scale: .0001, transformOrigin: "center", motionPath: { path: "#newbluepath", align: "#newbluepath", alignOrigin: "center" } })
+        .to("#topblue", { opacity: 0, scale: .3, transformOrigin: "center", delay: -.5 })
+        .to("#topblue", { opacity: 0 })
+        .to("#clipblue", { duration: 2, scale: 7, transformOrigin: "center", delay: -1.5 });
+    return tl;
+}
 
 
 
 var mainTL = gsap.timeline();
-mainTL.add(yellowpath(), 0)
+mainTL.add(bluepath(), 0)
+    .add(yellowpath(), 0)
     .add(greenpath(), 0)
     .add(redpath2(), 0);
 
