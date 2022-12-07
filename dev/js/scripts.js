@@ -24,62 +24,54 @@ function bluepath2() {
     return tl;
 }
 
-
-
-
-
-
 function shadow() {
     var tl = gsap.timeline();
-
-
-    tl.from("#curvestroke", { drawSVG: "0.100", duration: 3 })
-        .from("#curve", { opacity: 0 });
-    return tl;
-}
-function pathbounce() {
-    var tl = gsap.timeline();
-    tl.from("#martengroup", { opacity: 0, duration: .3, delay: -1 })
+    tl.from("#curvestroke", { drawSVG: "0.100", duration: .7 })
+        .from("#curve", { opacity: 0 })
+        .to("#curvestroke", { opacity: 0, delay: -.5 })
+        .from("#martengroup", { opacity: 0, duration: .3 })
         .from("#martengroup", { y: -500, duration: 1, delay: -.3, delay: -1 })
         .from(".doctor", { opacity: 0, duration: .3 })
         .from(".doctor", { y: -500, duration: 1, delay: -.3, delay: -1 });
-
     return tl;
 }
-
-// function drdrop() {
+// function pathbounce() {
 //     var tl = gsap.timeline();
-//     tl.to(".doctor", { opacity: 0, duration: .3 })
-//         .from(".doctor", { y: -500, duration: 2, delay: -.3 });
-
-
+//     tl.from("#martengroup", { opacity: 0, duration: .3 })
+//         .from("#martengroup", { y: -500, duration: 1, delay: -.3, delay: -1 })
+//         .from(".doctor", { opacity: 0, duration: .3 })
+//         .from(".doctor", { y: -500, duration: 1, delay: -.3, delay: -1 });
 
 //     return tl;
 // }
+
 function airwalk() {
     var tl = gsap.timeline();
-    tl.from("#yellowwithshapee", { opacity: 0, duration: .3 })
-        .from("#yellowwithshapee", { y: 50, duration: .3 })
-        .from("#withsoles", { opacity: 0, duration: .3 })
-        .from("#bouncing", { opacity: 0, duration: .3 })
-        .to("#bouncing", { scale: 1.2, duration: 2 })
-        .to("#bouncing", { scale: 1, duration: 2 })
-        .from(".airwalk", { opacity: 0, duration: .3 })
-        .from("#yellowlines", { x: 600 });
+    tl.from("#Subtract", { opacity: 0, duration: .3 })
+        .from("#Subtract", { y: 65 })
+        .from("#airwairblack", { opacity: 0, duration: .3, delay: -.2 })
+        .from("#withsoles", { opacity: 0, duration: .3 });
+    return tl;
+}
+function bounce() {
+    var tl = gsap.timeline();
+    CustomBounce.create("bouncebounce", { strength: 0.5, squash: 3, squashID: "bouncebounce-squash" });
+    tl.from("#bouncing", { opacity: 0, duration: .3 })
+        .from("#bouncing", { y: -500, ease: "bouncebounce", duration: 2 })
+        .to("#bouncing", { scaleY: 0.3, scaleX: 1.5, ease: "bouncebounce-squash", transformOrigin: "bottom", duration: 2 }, 0);
 
 
     return tl;
 }
-
 
 
 var mainTL = gsap.timeline();
 mainTL.add(bluepath2())
-    // .add(backup())
     .add(shadow())
-    .add(pathbounce())
-    .add(airwalk());
-// .add(drdrop);
+    // .add(pathbounce())
+    .add(airwalk())
+    .add(bounce());
+
 
 
 // MotionPathHelper.create(bouncepath1)
