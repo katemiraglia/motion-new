@@ -39,21 +39,9 @@ function shadow() {
 }
 function pathbounce() {
     var tl = gsap.timeline();
-    tl.from("#docS", { opacity: 0, duration: .3 })
-        .to("#docS", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath1", align: "#bouncepath1" } })
-        .from("#docN", { opacity: 0, duration: .3, delay: -1 })
-        .to("#docN", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath2", align: "#bouncepath2" } })
-        .from("#docE", { opacity: 0, duration: .3, delay: -1 })
-        .to("#docE", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath3", align: "#bouncepath3" } })
-        .from("#docT", { opacity: 0, duration: .3, delay: -1 })
-        .from("#docT", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath4", align: "#bouncepath4" } })
-        .from("#docR", { opacity: 0, duration: .3, delay: -1 })
-        .from("#docR", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath5", align: "#bouncepath5" } })
-        .from("#docA", { opacity: 0, duration: .3, delay: -1 })
-        .from("#docA", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath6", align: "#bouncepath6" } })
-        .from("#docM", { opacity: 0, duration: .3, delay: -1 })
-        .from("#docM", { duration: 1, transformOrigin: "center", motionPath: { path: "#bouncepath7", align: "#bouncepath7" } })
-        .from(".doctor", { opacity: 0, duration: .3, delay: -1 })
+    tl.from("#martengroup", { opacity: 0, duration: .3, delay: -1 })
+        .from("#martengroup", { y: -500, duration: 1, delay: -.3, delay: -1 })
+        .from(".doctor", { opacity: 0, duration: .3 })
         .from(".doctor", { y: -500, duration: 1, delay: -.3, delay: -1 });
 
     return tl;
