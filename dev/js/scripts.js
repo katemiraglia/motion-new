@@ -30,34 +30,27 @@ function shadow() {
         .from("#curve", { opacity: 0 })
         .to("#curvestroke", { opacity: 0, delay: -.5 })
         .from("#martengroup", { opacity: 0, duration: .3 })
-        .from("#martengroup", { y: -500, duration: 1, delay: -.3, delay: -1 })
+        .from("#martengroup", { y: -500, duration: .5, delay: -.3 })
         .from(".doctor", { opacity: 0, duration: .3 })
-        .from(".doctor", { y: -500, duration: 1, delay: -.3, delay: -1 });
+        .from(".doctor", { y: -500, duration: .5, delay: -.3 });
     return tl;
 }
-// function pathbounce() {
-//     var tl = gsap.timeline();
-//     tl.from("#martengroup", { opacity: 0, duration: .3 })
-//         .from("#martengroup", { y: -500, duration: 1, delay: -.3, delay: -1 })
-//         .from(".doctor", { opacity: 0, duration: .3 })
-//         .from(".doctor", { y: -500, duration: 1, delay: -.3, delay: -1 });
 
-//     return tl;
-// }
 
 function airwalk() {
     var tl = gsap.timeline();
     tl.from("#Subtract", { opacity: 0, duration: .3 })
-        .from("#Subtract", { y: 65 })
-        .from("#airwairblack", { opacity: 0, duration: .3, delay: -.2 })
-        .from("#withsoles", { opacity: 0, duration: .3 });
+        .from("#Subtract", { y: 65, duration: .3 })
+        .from("#airwairblack", { opacity: 0, duration: .3, delay: -.3, y: 50 })
+        .from("#withsoles", { opacity: 0, duration: .3, delay: -.3 })
+        .to("#linesclip", { scaleX: 20, duration: 1, delay: -1, transformOrigin: "left" });
     return tl;
 }
 function bounce() {
     var tl = gsap.timeline();
     CustomBounce.create("bouncebounce", { strength: 0.5, squash: 3, squashID: "bouncebounce-squash" });
     tl.from("#bouncing", { opacity: 0, duration: .3 })
-        .from("#bouncing", { y: -500, ease: "bouncebounce", duration: 2 })
+        .from("#bouncing", { y: -500, ease: "bouncebounce", duration: 2, delay: -.3 })
         .to("#bouncing", { scaleY: 0.3, scaleX: 1.5, ease: "bouncebounce-squash", transformOrigin: "bottom", duration: 2 }, 0);
 
 
@@ -68,7 +61,6 @@ function bounce() {
 var mainTL = gsap.timeline();
 mainTL.add(bluepath2())
     .add(shadow())
-    // .add(pathbounce())
     .add(airwalk())
     .add(bounce());
 
