@@ -17,6 +17,14 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/assets\/AllAssets" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/AllAssets",
+      "oF" : 0
+    },
     "\/assets\/blue-path.svg" : {
       "ft" : 2097152,
       "miP" : 0,
