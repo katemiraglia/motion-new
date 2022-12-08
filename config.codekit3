@@ -17,6 +17,14 @@
       "oAP" : "\/.gitattributes",
       "oF" : 0
     },
+    "\/assets\/AllAssets.fig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/AllAssets.fig",
+      "oF" : 0
+    },
     "\/assets\/blue-path.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -52,16 +60,6 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/assets\/logo-containersmallerblue.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/assets\/newest one.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/assets\/newest one.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -371,14 +369,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/trash.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/trash.html",
-      "oF" : 0
     },
     "\/dev\/trash.kit" : {
       "cB" : 0,
