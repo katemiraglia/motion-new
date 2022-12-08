@@ -78,17 +78,24 @@ function blueswirl() {
     return tl;
 }
 
+function circles() {
+    var tl = gsap.timeline();
+    tl.from("#circles", { scale: 7, transformOrigin: "bottom right", duration: 1.5 })
+        .to("#circles", { scale: .001, transformOrigin: "bottom right", duration: .5 });
+}
+
+
 
 
 var mainTL = gsap.timeline();
-mainTL.add(bluepath(), 0)
-    .add(yellowpath(), 0)
-    .add(greenpath(), 0)
-    .add(redpath2(), 0)
-    .add(blueswirl(), 0)
-    // .add(outside(), 0)
-    .add(yellowswirl(), 0);
-// .add(testswirl(), 0);
+mainTL.add(circles())
+    .add(bluepath(), 1)
+    .add(yellowpath(), 1)
+    .add(greenpath(), 1)
+    .add(redpath2(), 1)
+    .add(blueswirl(), 1)
+    .add(yellowswirl(), 1);
+
 
 
 GSDevTools.create();
