@@ -15,7 +15,7 @@ gsap.registerPlugin(MorphSVGPlugin, DrawSVGPlugin, GSDevTools, MotionPathHelper,
 function redpath2() {
     var tl = gsap.timeline();
     tl.set("#bothclipandshapered", { xPercent: -50, yPercent: -50 })
-        .from("#bothclipandshapered", { duration: 5, scale: .015, transformOrigin: "center", motionPath: { path: "#newredpath", align: "#newredpath", alignOrigin: "center" } })
+        .from("#bothclipandshapered", { delay: 1.2, duration: 3.8, scale: .015, transformOrigin: "center", motionPath: { path: "#newredpath", align: "#newredpath", alignOrigin: "center" } })
         .to("#bothclipandshapered", { duration: 3.5, rotate: 360, transformOrigin: "center", delay: -5 })
         .to("#clipI", { duration: 2, scaleY: 10, transformOrigin: "center", delay: -1.5 });
 
@@ -30,7 +30,7 @@ function redpath2() {
 function yellowpath() {
     var tl = gsap.timeline();
     tl.set("#bothclipandshapeyellow", { xPercent: -50, yPercent: -50 })
-        .from("#bothclipandshapeyellow", { duration: 5, scale: .015, transformOrigin: "center", motionPath: { path: "#newyellowpath", align: "#newyellowpath", alignOrigin: "center" } })
+        .from("#bothclipandshapeyellow", { delay: .4, duration: 4.6, scale: .015, transformOrigin: "center", motionPath: { path: "#newyellowpath", align: "#newyellowpath", alignOrigin: "center" } })
         .to("#bothclipandshapeyellow", { duration: 3.5, rotate: 360, transformOrigin: "center", delay: -5 })
         .to("#ClipX", { duration: 2, scale: 4, transformOrigin: "center", delay: -1.5 });
 
@@ -43,7 +43,7 @@ function yellowpath() {
 function greenpath() {
     var tl = gsap.timeline();
     tl.set("#allgreentogther", { xPercent: -50, yPercent: -50 })
-        .from("#allgreentogther", { duration: 5, scale: .015, transformOrigin: "center", motionPath: { path: "#greenpath", align: "#greenpath", alignOrigin: "center" } })
+        .from("#allgreentogther", { delay: .8, duration: 4.2, scale: .015, transformOrigin: "center", motionPath: { path: "#greenpath", align: "#greenpath", alignOrigin: "center" } })
         .to("#bothclipandshapegreen", { duration: 3.5, rotate: 360, transformOrigin: "center", delay: -5 })
         .to("#clipgreen", { duration: 2, scale: 4, transformOrigin: "center", delay: -1.5 });
     return tl;
