@@ -60,11 +60,35 @@ function bluepath() {
 
 
 
+function yellowswirl() {
+    var tl = gsap.timeline();
+    tl.from("#yellowbrandnew", { opacity: 0, delay: 2, duration: .1 })
+        .fromTo("#yellowbrandnew", { drawSVG: "0 " }, { duration: .1, drawSVG: "0 5%" })
+        .fromTo("#yellowbrandnew", { drawSVG: "0 5%" }, { drawSVG: "95% 100%", duration: 4 })
+        .to("#yellowbrandnew", { opacity: 0, delay: -.7, duration: .1 });
+    return tl;
+}
+
+function blueswirl() {
+    var tl = gsap.timeline();
+    tl.from("#bluebrandnew", { opacity: 0, delay: 2, duration: .1 })
+        .fromTo("#bluebrandnew", { drawSVG: "0 " }, { duration: .1, drawSVG: "0 5%" })
+        .fromTo("#bluebrandnew", { drawSVG: "0 5%" }, { drawSVG: "95% 100%", duration: 4 })
+        .to("#bluebrandnew", { opacity: 0, delay: -.7, duration: .1 });
+    return tl;
+}
+
+
+
 var mainTL = gsap.timeline();
 mainTL.add(bluepath(), 0)
     .add(yellowpath(), 0)
     .add(greenpath(), 0)
-    .add(redpath2(), 0);
+    .add(redpath2(), 0)
+    .add(blueswirl(), 0)
+    // .add(outside(), 0)
+    .add(yellowswirl(), 0);
+// .add(testswirl(), 0);
 
 
 GSDevTools.create();
